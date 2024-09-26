@@ -3,6 +3,7 @@ from torchvision import models, transforms, datasets
 from torch.utils.data import DataLoader
 from torchvision.models import resnet50, ResNet50_Weights
 
+# use MNIST to train 
 def to_three_channels(x):
     return x.repeat(3, 1, 1)
 
